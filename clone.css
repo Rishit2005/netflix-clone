@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap');
+*{  
+padding: 0;
+margin: 0;
+font:  'Poppins', sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/netflixbg.jpg");
+height: 90vh;
+background-position: center center;
+background-size: max(1000px,100vw);
+background-repeat: none;
+position: relative;
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    height: 62px;
+}
+nav img{ color: rgb(229, 9, 20);
+ position: relative;
+ z-index: 10;
+    width: 160px;
+    
+}
+nav button{
+    position: relative;
+ z-index: 10;
+}
+.kyu{
+    background-color: rgb(229, 9, 20);
+border-color: rgb(229, 9, 20);
+color: white;
+padding: 0.5rem 1rem;
+border-width: 0.0625rem;
+    border-radius: calc(0.25rem - 0.0625rem);
+border-style: solid;
+margin-left: 8px;
+cursor: pointer;
+}
+.tilt{
+    border-color: white;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+border-width: 0.0625rem;
+    border-radius: calc(0.25rem - 0.0625rem);
+    color:white;
+}
+.hero{
+    font:  'Martel Sans', sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: calc(100% - 102px);
+    color: white;
+    flex-direction: column;
+    z-index: 10;
+    position: relative;
+    gap: 23px;
+}
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center  ;
+}
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center  ;
+    
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center  ;
+    
+}
+.email { 
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-color: white;
+    font-size: medium;
+    color: white;
+}
+
+
+.getstarted{
+    border-color: rgb(229, 9, 20) ;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-width: 0.0625rem;
+    border-radius: calc(0.25rem - 0.0625rem);
+    border-style: solid;
+    margin-top: 1rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    height: 40px;
+}
+.seperation{box-sizing: border-box;
+    
+    height: 7px;
+    
+    background-color: rgb(77, 70, 70);
+}
+.trendingnow{
+    font:  'Martel Sans', sans-serif;
+    color: white;
+    padding: 20px;
+    
+    
+}
+.tail{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+    gap: 50px;
+    position: relative;
+   
+
+}
+.mov{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 62px;
+    gap: 2px;
+
+    
+}
+
+.morereason{
+    display: flex;
+    font:  'Martel Sans', sans-serif;
+    color: white;
+padding: 14px 38px;
+font-size: larger;
+margin-inline-start: 5vw;
+}
+.griditem{
+    height:31vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+    border-radius: 20px;
+grid-column: 1/2;
+grid-row: 1/2;
+justify-items: center;
+z-index: 10;
+
+    
+}
+.groditem{
+    font:  'Martel Sans', sans-serif;
+    
+   color: white;    
+    border: rgb(21, 27, 47);
+border-radius: 10px;
+    background-image: linear-gradient(to right bottom, rgb(32, 29, 37) , rgb(15, 11, 65));
+    height: 13vw;
+    width: 40vw;
+   padding: 10px; 
+   justify-content: center;
+   z-index: 10;
+   
+}
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 81vw;
+    margin: 9px auto;
+    cursor: pointer;
+}
+footer {
+    max-width: 90vw;
+    padding: 75px 0;
+}
+
+.footer-item{
+    align-items: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+}
+
+
+.footer a {
+font-size: 14px;
+color: white;
+}
+
+.footer-item {
+display: flex;
+flex-direction: column;
+gap: 23px;
+}
+
+
+
